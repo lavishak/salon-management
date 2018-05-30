@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+p {
+    margin-bottom: 30px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote {
+    position: relative;
+    marign: 0;
+    padding: 30px 120px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFF8DC;
+}
+blockquote:before, blockquote:after {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    font-size: 120px;
+    line-height: 1;
+}
+blockquote:before {
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    top: 0;
+    right: 0;
+    content: "\201D";
+}
+</style>
+</head>
+<body background="salon.png">
+<ul>
+  <li><a class="active" href="s.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="contacts.html">Contacts</a></li>
+  <li style="float:right"><a href="adminform.html">Admin</a></li>
+  <li style="float:right"><a href="custform.html">Register</a></li>
+  <li style="float:right"><a href="employee.html">Employee</a></li>
+</ul>
+
+<p align="left">
+<blockquote>INNER BEAUTY IS GREAT BUT A LITTLE MASCARA NEVER HURTS</blockquote>
+</p>
+</body>
+</html>

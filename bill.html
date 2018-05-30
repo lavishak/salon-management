@@ -1,0 +1,100 @@
+<html>
+<style>
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width:100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body background="salon.png" >
+<h1 align="center" style="color:blue;">Bill Payment</h1>
+<div class="center">
+  <form action="bill1.php" method="post">
+    <label for="cust">Customer Name</label>
+    <input type="text" id="cust" name="cust" placeholder="Customer Name" ><br>
+    <label for="sera">Service Used 1</label>
+    <select name="sera" placeholder="Service Used 1">
+    <option>HAIRSPA</option>
+    <option>HAIRCUT</option>
+    <option>HAIRSTYLING</option>
+    <option>REBONDING</option>
+    <option>MANICURE</option>
+    <option>PEDICURE</option>
+    <option>FACIAL</option>
+    </select><br>
+    <label for="ama">Amount</label>
+    <select name="ama" placeholder="Amount">
+    <option>1000</option>
+    <option>200</option>
+    <option>500</option>
+    <option>7000</option>
+    <option>1500</option>
+    <option>2000</option>
+    </select><br>
+    <label for="serb">Service Used 2</label>
+    <select name="serb" placeholder="Service Used 2">
+    <option>HAIRSPA</option>
+    <option>HAIRCUT</option>
+    <option>HAIRSTYLING</option>
+    <option>REBONDING</option>
+    <option>MANICURE</option>
+    <option>PEDICURE</option>
+    <option>FACIAL</option></select><br>
+    <label for="amb">Amount</label>
+    <select name="amb" placeholder="Amount">
+    <option>1000</option>
+    <option>200</option>
+    <option>500</option>
+    <option>7000</option>
+    <option>1500</option>
+    <option>2000</option></select><br>
+    <label for="serc">Service Used 3</label>
+    <select name="serc" placeholder="Service Used 3">
+    <option>HAIRSPA</option>
+    <option>HAIRCUT</option>
+    <option>HAIRSTYLING</option>
+    <option>REBONDING</option>
+    <option>MANICURE</option>
+    <option>PEDICURE</option>
+    <option>FACIAL</option></select><br>
+    <label for="amc">Amount</label>
+    <select name="amc" placeholder="Amount">
+    <option>1000</option>
+    <option>200</option>
+    <option>500</option>
+    <option>7000</option>
+    <option>1500</option>
+    <option>2000</option></select><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
